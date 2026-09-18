@@ -10,11 +10,13 @@ The core question is:
 
 **Should this actor, with this intent, in this current context, receive authority to act?**
 
-## Canonical product surface
+## Canonical public surface
 
 Official site: https://ai-admissibility.com/
 
-The website is the canonical public product and documentation surface. GitHub provides implementation, evaluation, compatibility, and proof material that must remain consistent with it.
+The website and GitHub repositories are public showcase, documentation, proof, and demonstration surfaces.
+
+They are **not** used as commercial checkout infrastructure, credential issuers, hosted customer runtime, or customer production execution surfaces.
 
 ## Public repositories
 
@@ -24,14 +26,22 @@ The website is the canonical public product and documentation surface. GitHub pr
   https://github.com/pinfloyd/ai-admissibility-action
 - **cnp-action** — compatibility workflow slug retained for existing references; not the canonical repository for new evaluation installs:  
   https://github.com/pinfloyd/cnp-action
-- **Agent + Boundary Demo** — bounded demonstration material, not the canonical production runtime:  
+- **Agent + Boundary Demo** — bounded demonstration material, not production runtime:  
   https://github.com/pinfloyd/ai-admissibility-agent-boundary-demo
-- **Hosted Authority candidate package** — engineering candidate / reference material, not the canonical installed runtime:  
+- **Hosted Authority reference package** — historical engineering / reference material, not the canonical installed runtime:  
   https://github.com/pinfloyd/ai-admissibility-hosted-authority
 
 ## Current public status
 
-The canonical installed boundary is represented publicly through the official site and its controlled evaluation path. Public GitHub Actions are evaluation surfaces; they do not currently claim a customer-specific production no-bypass guarantee or a generally open authority endpoint.
+The canonical installed boundary is represented publicly through the official site and controlled demonstration paths. Public GitHub Actions are evaluation surfaces; they do not provide a customer-specific production no-bypass guarantee or a generally open authority endpoint.
+
+## Collaboration
+
+For collaboration, research, integration, or deployment discussions:
+
+**governance@ai-admissibility.com**
+
+The public website and GitHub repositories remain demonstration surfaces; any real-world commercial or production arrangement is handled separately from them.
 
 ## Platform-native policy vs external admission
 
